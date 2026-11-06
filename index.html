@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GLOWLOG | My 60-Day Glow Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <p class="eyebrow">YOUR PERSONAL RESET ✧</p>
+    <h1>GLOWLOG</h1>
+    <p>60 days of becoming a healthier, happier version of me.</p>
+    <div class="date-label">NOVEMBER 7, 2026 — JANUARY 5, 2027</div>
+  </header>
+
+  <main class="container">
+
+    <section class="welcome card">
+      <div>
+        <p class="eyebrow">TODAY'S JOURNEY</p>
+        <h2 id="todayTitle">Your glow-up starts here ♡</h2>
+        <p id="todayDate"></p>
+      </div>
+      <div class="day-badge">
+        <span id="dayNumber">Day 1</span>
+        <small>of 60</small>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR PROGRESS</p>
+          <h2>Little steps, big changes</h2>
+        </div>
+        <span id="progressText">0%</span>
+      </div>
+
+      <div class="progress-track">
+        <div id="progressBar"></div>
+      </div>
+      <p class="muted" id="progressMessage">Start with one small habit today.</p>
+    </section>
+
+    <section class="card">
+      <div class="section-heading">
+        <h2>Choose your day</h2>
+        <select id="daySelect"></select>
+      </div>
+      <p class="muted">You can revisit any day and update your checklist.</p>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">☀️ MORNING ROUTINE</p>
+      <h2>Start your day gently</h2>
+      <p class="time">7:00 – 8:00 AM</p>
+      <div id="morningTasks" class="task-list"></div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">🌷 EVENING ROUTINE</p>
+      <h2>Take care of yourself</h2>
+      <p class="time">6:00 – 8:00 PM</p>
+      <div id="eveningTasks" class="task-list"></div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">🌙 NIGHT ROUTINE</p>
+      <h2>End your day peacefully</h2>
+      <p class="time">9:00 – 10:30 PM</p>
+      <div id="nightTasks" class="task-list"></div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">🪮 WEEKLY HAIR CARE</p>
+      <h2>Your gentle hair-care guide</h2>
+      <p id="hairFocus" class="muted"></p>
+      <div id="hairTasks" class="task-list"></div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">✨ WEEKLY GLOW-UP GOAL</p>
+      <h2 id="weeklyTitle"></h2>
+      <p id="weeklyDescription"></p>
+      <div id="weeklyTasks" class="task-list"></div>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">💌 DAILY JOURNAL</p>
+      <h2>How am I feeling today?</h2>
+
+      <label for="mood">My mood</label>
+      <select id="mood">
+        <option value="">Choose a mood</option>
+        <option>Happy ♡</option>
+        <option>Confident ✨</option>
+        <option>Calm 🌷</option>
+        <option>Tired 🌙</option>
+        <option>Unmotivated</option>
+        <option>Stressed</option>
+      </select>
+
+      <label for="notes">Today's thoughts</label>
+      <textarea id="notes" placeholder="Write anything about your day..."></textarea>
+
+      <p class="save-message" id="saveMessage">Your progress saves automatically ♡</p>
+    </section>
+
+    <section class="card">
+      <p class="eyebrow">🌸 YOUR REMINDER</p>
+      <h2>You don't have to be perfect.</h2>
+      <p>Missing a day doesn't mean failure. Rest, restart, and keep going at your own pace.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    Made with love, just for me ♡
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
